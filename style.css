@@ -31,7 +31,12 @@ section p
 }
 ::-webkit-scrollbar-thumb
 {
-    background: #f00;
+    background: linear-gradient(transparent,#30ff00);
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+   background: linear-gradient(transparent,#30ff00);
 }
 
 
